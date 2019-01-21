@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import bulma from 'bulma'
+import './styles/base.sass'
 
 Vue.config.productionTip = false
 

@@ -2,11 +2,11 @@
   <div class="container">
     <section class="section">
       <div class="container">
-        <h1 class="title is-1">Good Morning, I'm Omar</h1>
-        <h2 class="subtitle">A Developer | UX Designer | Indie Maker from the United States.</h2>
+        <h1 class="is-size-3-mobile">{{getGreeting}}, I'm Omar</h1>
+        <h2 class="is-size-4-mobile">A Developer | UX Designer | Indie Maker from the United States.</h2>
         <p>I make useful, interesting things, sometimes more interesting than useful. This website is a personal log of my work and my thoughts as a human. You can view some of my projects below.</p>
         <div class="links">
-          <a class="social--link" href="/">Twitter</a>
+          <a class="social--link" href="/">Twitter </a>
           <a class="social--link" href="/">Github</a>
         </div>
       </div>
@@ -30,7 +30,7 @@
       <h3>STATS</h3>
       <div class="columns">
         <div class="column">
-          <p>I’ve traveled to 41 cities across 16 countries and walked 2,271,366 steps</p>
+          <p>I’ve traveled to 41 cities across 16 countries and walked {{getSteps}} steps</p>
         </div>
       </div>
     </section>
@@ -40,24 +40,32 @@
 <script>
 export default {
   name: 'HomePage',
-  props: {}
+  props: {},
+  computed: {
+    getGreeting() {
+      const currentTime = new Date().getHours()
+      if (currentTime >= 12 && currentTime <= 16) {
+        return 'Good Afternoon' 
+      } else if(currentTime >= 0 && currentTime <= 11) {
+        return 'Good Morning'
+      } else if (currentTime >= 17 && currentTime <= 24) {
+        return 'Good Evening'
+      } else {
+        return 'Hello' 
+      }
+    },
+    getSteps(){
+      const steps = 2271366
+
+      return steps.toLocaleString()
+      
+
+    }
+  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style lang="sass">
+
 </style>
+
