@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HomePage msg="Welcome to Your Vue.js App"/>
+    <HomePage/>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import HomePage from '@/components/HomePage.vue'
 
 export default {
-  name: 'HomePage',
+  name: 'home',
   components: {
     HomePage
   }
