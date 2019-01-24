@@ -1,5 +1,10 @@
 <template>
   <div class="container">
+    <section>
+      <div class="has-text-right">
+        <a href="https://twitter.com/whimandwind" target="_blank" class="button" role="button">Say Hello</a>
+      </div>
+    </section>
     <section class="section">
       <div class="container">
         <h1 class="is-size-3-mobile">{{getGreeting}}, I'm Omar</h1>
@@ -14,6 +19,8 @@
 
     <section class="section">
       <h3>PROJECTS</h3>
+      <hr class="is-divider">
+      <div class="" data-content="OR"></div>
       <div class="columns">
         <div class="column">
           <h4><a class="project--link" href="#">Color Koala</a></h4>
@@ -28,9 +35,11 @@
 
     <section class="section">
       <h3>STATS</h3>
+      <hr class="is-divider">
+      <div class="hr" data-content="OR"></div>
       <div class="columns">
         <div class="column">
-          <p>I’ve traveled to 41 cities across 16 countries and walked {{getSteps}} steps</p>
+          <p>I’ve traveled to <strong>41 cities </strong>across <strong>16 countries</strong> and walked <strong>{{getSteps}} steps </strong> </p>
         </div>
       </div>
     </section>
@@ -65,7 +74,25 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
+// COLORS
+$prime: #3596FD
+$second: #140C36
+.button
+  margin-top: 25px
+  margin-right: 25px
+  border: 2px solid $prime
+  font-size: 22px
+  border-radius: 100px
+  font-weight: bold
+  background-color: transparent
+  color: $prime
+  opacity: .5
+  transition: all 200ms ease-in-out
 
+  &:hover
+    opacity: 1
+    border: 2px solid $prime
+    color: $prime
 </style>
 
