@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "bulma": "^0.7.2",
-    "eva-icons": "^1.1.1",
     "vue": "^2.5.21",
+    "vue-eva-icons": "^1.1.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
