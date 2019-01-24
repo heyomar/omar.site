@@ -159,5 +159,8 @@ $second: #140C36
 
 .social--icon
   padding: 30px 10px 0 5px
+  opacity: .5
+  &:hover
+    opacity: 1
 </style>
 
