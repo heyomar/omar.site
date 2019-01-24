@@ -11,16 +11,16 @@
           </div>
           <div class="level-right">
             <div class="level-item">
-              <a href="https://twitter.com/whimandwind" target="_blank">
-                <eva-icon name="twitter" animation="flip" fill="#3596FD"></eva-icon>
-              </a>
-            </div>
-            <div class="level-item">
-              <a href="https://github.com/omarrasool/omar" target="_blank">
-                <eva-icon name="github" animation="flip" fill="#3596FD"></eva-icon>
-              </a>
-            </div>
-            <div class="level-item">
+              <div class="social--icon">
+                <a href="https://twitter.com/whimandwind" target="_blank">
+                  <eva-icon name="twitter" animation="flip" fill="#3596FD"></eva-icon>
+                </a>
+              </div>
+              <div class="social--icon">
+                <a href="https://github.com/omarrasool/omar" target="_blank">
+                  <eva-icon name="github" animation="flip" fill="#3596FD"></eva-icon>
+                </a>
+              </div>
               <a
                 href="https://twitter.com/whimandwind"
                 target="_blank"
@@ -31,7 +31,7 @@
           </div>
         </nav>
 
-        <section class="section">
+        <section class="section pt0">
           <div class="container">
             <h1 class="is-size-4-mobile">{{getGreeting}}, I'm Omar</h1>
             <h2
@@ -113,6 +113,7 @@ $second: #140C36
 
 .section
   padding-bottom: 0
+
 .button
   margin-top: 25px
   margin-right: 25px
@@ -148,12 +149,15 @@ $second: #140C36
   font-size: 30px
 
 .graphic
-  height: 100vh
+  height: 75vh
   position: relative
+  top: 120px
   background: url('../assets/o-graphic.svg')
   background-repeat: no-repeat
   background-size: cover
   background-position: center right
 
+.social--icon
+  padding: 30px 10px 0 5px
 </style>
 
