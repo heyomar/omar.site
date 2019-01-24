@@ -11,12 +11,12 @@
           </div>
           <div class="level-right">
             <div class="level-item">
-              <a href>
+              <a href="https://twitter.com/whimandwind" target="_blank">
                 <eva-icon name="twitter" animation="flip" fill="#3596FD"></eva-icon>
               </a>
             </div>
             <div class="level-item">
-              <a href>
+              <a href="https://github.com/omarrasool/omar" target="_blank">
                 <eva-icon name="github" animation="flip" fill="#3596FD"></eva-icon>
               </a>
             </div>
@@ -33,9 +33,9 @@
 
         <section class="section">
           <div class="container">
-            <h1 class="is-size-3-mobile">{{getGreeting}}, I'm Omar</h1>
+            <h1 class="is-size-4-mobile">{{getGreeting}}, I'm Omar</h1>
             <h2
-              class="is-size-4-mobile"
+              class="is-size-5-mobile"
             >A Developer | UX Designer | Indie Maker from the United States.</h2>
             <p>I make useful, interesting things, sometimes more interesting than useful. This website is a personal log of my work and my thoughts as a human. You can view some of my projects below.</p>
           </div>
@@ -50,13 +50,13 @@
               <h4 class="project--title">
                 <a class="project--link" href="#">Color Koala</a>
               </h4>
-              <p>A Koala-ty color palette generator, making gorgeous colors for all of your side projects.</p>
+              <p>Koala-ty color palette generator, gorgeous colors for all of your side projects.</p>
             </div>
             <div class="column">
               <h4 class="project--title">
                 <a class="project--link" href="#">Pixel Panther</a>
               </h4>
-              <p>Screenshots with canvas made easy</p>
+              <p>Essential units converter for the web</p>
             </div>
           </div>
         </section>
@@ -66,8 +66,12 @@
           <hr class="hr">
           <div class="columns">
             <div class="column">
-              <p>I’ve traveled to <strong>41 cities</strong>across <strong>16 countries</strong> and walked <strong>{{getSteps}} steps</strong>
-              </p>
+              <span class="text-top"><eva-icon name="image-2" animation="flip" fill="#3596FD"></eva-icon></span>
+              <strong> 41 cities</strong> &nbsp;
+              <span class="text-top"><eva-icon name="globe-2" animation="flip" fill="#3596FD"></eva-icon></span>
+              <strong> 16 countries</strong> &nbsp;
+               <span class="text-top"><eva-icon name="heart" animation="flip" fill="#3596FD"></eva-icon></span>
+              <strong> {{getSteps}} steps</strong>
             </div>
           </div>
         </section>
