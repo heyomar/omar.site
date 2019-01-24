@@ -12,31 +12,30 @@
         <p>I make useful, interesting things, sometimes more interesting than useful. This website is a personal log of my work and my thoughts as a human. You can view some of my projects below.</p>
         <div class="links">
           <a class="social--link" href="/">Twitter </a>
-          <a class="social--link" href="/">Github</a>
+          <a class="social--link" href="/"><i data-eva="github"></i></a>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h3>PROJECTS</h3>
-      <hr class="is-divider">
+      <h3 class="section--title">PROJECTS</h3>
+      <hr class="hr">
       <div class="" data-content="OR"></div>
       <div class="columns">
         <div class="column">
-          <h4><a class="project--link" href="#">Color Koala</a></h4>
+          <h4 class="project--title"><a class="project--link" href="#">Color Koala</a></h4>
           <p>A Koala-ty color palette generator, making gorgeous colors for all of your side projects.</p>
         </div>
         <div class="column">
-          <h4><a class="project--link" href="#">Static Owl</a></h4>
+          <h4 class="project--title"><a class="project--link" href="#">Static Owl</a></h4>
           <p>Screenshots with canvas made easy</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h3>STATS</h3>
-      <hr class="is-divider">
-      <div class="hr" data-content="OR"></div>
+      <h3 class="section--title">NUMBERS</h3>
+      <hr class="hr">
       <div class="columns">
         <div class="column">
           <p>I’ve traveled to <strong>41 cities </strong>across <strong>16 countries</strong> and walked <strong>{{getSteps}} steps </strong> </p>
@@ -75,6 +74,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700');
 // COLORS
 $prime: #3596FD
 $second: #140C36
@@ -94,5 +94,24 @@ $second: #140C36
     opacity: 1
     border: 2px solid $prime
     color: $prime
+
+.section--title
+  font-size: 18px
+
+
+.hr
+  background-color: $prime
+  border: none
+  display: block
+  height: 1px
+  margin: 5px 0 20px 0
+  opacity: 0.3
+
+
+.project--title
+  font-family: 'Roboto Mono', monospace
+  font-weight: bold
+  font-size: 30px
+
 </style>
 
