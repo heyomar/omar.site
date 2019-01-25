@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Nav from '@/components/Sections/Nav.vue'
-import Body from '@/components/Sections/Body.vue'
-import Projects from '@/components/Sections/Projects.vue'
-import Numbers from '@/components/Sections/Numbers.vue'
+import Nav from '@/components/Parts/Nav.vue'
+import Body from '@/components/Parts/Body.vue'
+import Projects from '@/components/Parts/Projects.vue'
+import Numbers from '@/components/Parts/Numbers.vue'
 
 export default {
   name: "HomePage",
