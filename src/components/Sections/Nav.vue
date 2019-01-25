@@ -33,7 +33,9 @@ export default {
 </script>
 
 <style lang="sass">
-@import '@/styles/vars.sass'
+// COLORS
+$prime: #3596FD
+$second: #140C36
 
 .button
   margin-top: 25px
@@ -44,7 +46,7 @@ export default {
   font-weight: bold
   background-color: transparent
   color: $prime
-  opacity: .5
+  opacity: .7
   transition: all 200ms ease-in-out
 
   &:hover
@@ -54,7 +56,7 @@ export default {
 
 .social--icon
   padding: 30px 10px 0 5px
-  opacity: .5
+  opacity: .7
   &:hover
     opacity: 1
 </style>
