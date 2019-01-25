@@ -52,12 +52,7 @@
               </h4>
               <p>Koala-ty color palette generator, gorgeous colors for all of your side projects.</p>
             </div>
-            <div class="column">
-              <h4 class="project--title">
-                <a class="project--link" href="#">Pixel Panther</a>
-              </h4>
-              <p>Essential units converter for the web</p>
-            </div>
+            
           </div>
         </section>
 
@@ -65,13 +60,19 @@
           <h3 class="section--title">NUMBERS</h3>
           <hr class="hr">
           <div class="columns">
-            <div class="column">
+            <div class="column is-12">
               <span class="text-top"><eva-icon name="image-2" animation="flip" fill="#3596FD"></eva-icon></span>
               <strong> 41 cities</strong> &nbsp;
               <span class="text-top"><eva-icon name="globe-2" animation="flip" fill="#3596FD"></eva-icon></span>
               <strong> 16 countries</strong> &nbsp;
                <span class="text-top"><eva-icon name="heart" animation="flip" fill="#3596FD"></eva-icon></span>
               <strong> {{getSteps}} steps</strong>
+              <div class=""><br>
+                Montreal, Quebec City, Magog, Sherbrooke, Stanstead, Coaticook • Taipei, Taichung • Osaka, Kyoto, Nagoya, Tokyo • Bangkok, Chiang Mai, Pai, Koh Phangan • Fes, Marrakesh, Rabat, Essaouira • Tenerife, Lanzarote, La Gran Canaria • Dubrovnik, Zadar, Sukosan • Budva, Podgorica • Budapest • Prague • Lüchow, Berlin, Hamburg, Frankfurt, Leipzig • Amsterdam • Ostend, Brugge, Antwerp • Barcelona • Paris, Versailles • London
+              </div>
+            </div>
+            <div class="column">
+              
             </div>
           </div>
         </section>
@@ -149,13 +150,13 @@ $second: #140C36
   font-size: 30px
 
 .graphic
-  height: 75vh
+  height: 100vh
   position: relative
-  top: 120px
   background: url('../assets/o-graphic.svg')
   background-repeat: no-repeat
   background-size: cover
   background-position: center right
+  animation: Gradient 5s ease infinite
 
 .social--icon
   padding: 30px 10px 0 5px
