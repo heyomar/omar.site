@@ -6,7 +6,7 @@
     <div class="level-right">
       <div class="level-item">
         <div class="social--icon">
-          <a href="https://twitter.com/whimandwind" target="_blank">
+          <a href="https://twitter.com/trytokyo" target="_blank">
             <eva-icon name="twitter" animation="pulse" fill="#3596FD"></eva-icon>
           </a>
         </div>
