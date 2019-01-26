@@ -16,8 +16,7 @@
           </a>
         </div>
         <a
-          href="https://twitter.com/whimandwind"
-          target="_blank"
+          href="mailto:webdevromar@gmail.com?Subject=%20Hello"
           class="button"
           role="button"
         >Say Hello</a>

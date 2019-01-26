@@ -18,7 +18,7 @@ export default {
       } else if (currentTime >= 0 && currentTime <= 11) {
         return "Good Morning";
       } else if (currentTime >= 17 && currentTime <= 24) {
-        return "Good Evening";
+        return "Hi, Good Evening";
       } else {
         return "Hi there";
       }
