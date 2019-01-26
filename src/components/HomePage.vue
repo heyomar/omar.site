@@ -8,7 +8,7 @@
         <Nav/>
         <Body />
         <Projects/>
-        <Numbers/>
+        <!-- <Numbers/> -->
       </div>
     </div>
   </div>

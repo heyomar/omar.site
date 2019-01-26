@@ -12,10 +12,10 @@
 
 
 .section
-  padding: 1.5rem
+  padding: 1.5rem 1.5rem 2.8rem 1.5rem
 
 .section--title
-  font-size: 18px
+  font-size: 15px
 
 .hr
   background-color: $prime
@@ -28,7 +28,7 @@
 .project--title
   font-family: 'Roboto Mono', monospace
   font-weight: bold
-  font-size: 30px
+  font-size: 25px
 
 .graphic
   height: 100vh

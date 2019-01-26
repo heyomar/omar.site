@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="column is-12">
-        <h1 class="is-size-4-mobile is-family-monospace"><span class="counter">{{getSteps}}</span> steps</h1>
+        <h3 class="is-size-4-mobile is-family-monospace"><span class="counter">41 CITIES : 16 COUNTRIES : {{getSteps}} STEPS</span></h3>
       </div>
     </div>
   </section>
