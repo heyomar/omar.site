@@ -13,6 +13,13 @@
       </div> 
     </div>
     <div class="columns is-multiline">
+      <div class="column is-4">
+        <span>Pro</span>
+        <h4 class="project--title">
+          <a class="project--link" href="https://waterboys.org/" target="_blank">Waterboys.org</a>
+        </h4>
+        <p>Team up to tackle thirst with the 2018 walter payton man of the year, Chris Long.</p>
+      </div>
        <div class="column is-4">
         <span>Pro</span>
         <h4 class="project--title">
@@ -29,13 +36,7 @@
         <p>Pleban &amp; Petruska’s trial lawyers bring decades of experience to each case. </p>
       </div>
 
-      <div class="column is-4">
-        <span>Pro</span>
-        <h4 class="project--title">
-          <a class="project--link" href="https://waterboys.org/" target="_blank">Waterboys.org</a>
-        </h4>
-        <p>Team up to tackle thirst with the 2018 walter payton man of the year, chris long.</p>
-      </div>
+      
     </div>
   </section>
 </template>
