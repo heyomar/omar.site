@@ -1,4 +1,5 @@
-# omar
+# Hello
+My personal site, open source, and licensed for you to fork or do whatever. Enjoy!
 
 ## Project setup
 ```
