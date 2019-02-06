@@ -4,13 +4,21 @@
     <hr class="hr">
     <div class data-content="OR"></div>
     <div class="columns is-multiline">
-      <div class="column is-12">
+      <div class="column is-6">
         <span>Personal</span>
         <h4 class="project--title">
           <a class="project--link" href="https://colorkoala.xyz/" target="_blank">ColorKoala.xyz</a>
         </h4>
         <p>Koala-ty color palette generator, gorgeous colors for all of your side projects.</p>
-      </div> 
+      </div>
+
+      <div class="column is-6">
+        <span>Personal</span>
+        <h4 class="project--title">
+          <a class="project--link" href="https://pixelpanther.xyz/" target="_blank">PixelPanther.xyz</a>
+        </h4>
+        <p>CSS unit converter, making designs a little easier.</p>
+      </div>
     </div>
     <div class="columns is-multiline">
       <div class="column is-4">
