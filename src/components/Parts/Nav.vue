@@ -11,7 +11,7 @@
           </a>
         </div>
         <div class="social--icon">
-          <a href="https://github.com/omarrasool/omar" target="_blank">
+          <a href="https://github.com/heyomar/omarrasool.com" target="_blank">
             <eva-icon name="github" animation="pulse" fill="#3596FD"></eva-icon>
           </a>
         </div>
