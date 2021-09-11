@@ -1,2 +1,5 @@
 /* $prime: #3596fd;
 $second: #140c36; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

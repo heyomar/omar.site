@@ -1,10 +1,10 @@
 <template>
-    <div class="columns">
-        <div class="column is-2 is-hidden-mobile">
-            <div class="graphic"></div>
+    <div class="">
+        <div class="">
+            <div class=""></div>
         </div>
-        <div class="column">
-            <div class="container">
+        <div class="">
+            <div class="">
                 <Nav />
 
                 <Body />
