@@ -3,9 +3,9 @@
         <div class="level-left">
             <div class="level-item"></div>
         </div>
-        <div class="level-right">
-            <div class="level-item">
-                <div class="social--icon">
+        <div class="">
+            <div class="">
+                <div class="">
                     <a href="https://twitter.com/trytokyo"
                        target="_blank">
                         <eva-icon name="twitter"
@@ -13,7 +13,7 @@
                                   fill="#3596FD"></eva-icon>
                     </a>
                 </div>
-                <div class="social--icon">
+                <div class="">
                     <a href="https://github.com/heyomar/omarrasool.com"
                        target="_blank">
                         <eva-icon name="github"
@@ -22,7 +22,7 @@
                     </a>
                 </div>
                 <a href="mailto:webdevromar@gmail.com?Subject=%20Hello"
-                   class="button"
+                   class=""
                    role="button">Say Hello</a>
             </div>
         </div>
@@ -35,30 +35,5 @@
     }
 </script>
 
-<style lang="sass">
-$prime: #3596FD
-$second: #140C36
-
-.button
-    margin-top: 25px
-    margin-right: 25px
-    border: 2px solid $prime
-    font-size: 22px
-    border-radius: 100px
-    font-weight: bold
-    background-color: transparent
-    color: $prime
-    opacity: .7
-    transition: all 200ms ease-in-out
-
-    &:hover
-        opacity: 1
-        border: 2px solid $prime
-        color: $prime
-
-.social--icon
-    padding: 30px 10px 0 5px
-    opacity: .7
-    &:hover
-        opacity: 1
+<style lang="scss">
 </style>
