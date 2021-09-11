@@ -19,7 +19,7 @@
     import Nav from "../components/Nav.vue"
     import Body from "../components/Body.vue"
     import Projects from "../components/Projects.vue"
-    import Numbers from "@/components/Numbers.vue"
+    import Numbers from "../components/Numbers.vue"
 
     export default {
         name: "HomePage",
