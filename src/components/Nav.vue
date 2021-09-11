@@ -51,14 +51,14 @@ $second: #140C36
     opacity: .7
     transition: all 200ms ease-in-out
 
-&:hover
-    opacity: 1
-    border: 2px solid $prime
-    color: $prime
+    &:hover
+        opacity: 1
+        border: 2px solid $prime
+        color: $prime
 
 .social--icon
     padding: 30px 10px 0 5px
     opacity: .7
-&:hover
-    opacity: 1
+    &:hover
+        opacity: 1
 </style>

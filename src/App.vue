@@ -1,14 +1,22 @@
 <template>
-    <div id="app">
-        <router-view />
-    </div>
+    <router-view />
 </template>
+
+<script>
+    import HomePage from "./views/HomePage.vue"
+    export default {
+        name: "App",
+        components: {
+            HomePage,
+        },
+    }
+</script>
 
 <style lang="scss">
     @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:700");
     @import "bulma";
-    @import "@/styles/vars.scss";
-    @import "@/styles/base.scss";
+    @import "/src/styles/vars.scss";
+    @import "/src/styles/base.scss";
 
     .section {
         padding: 1.5rem 1.5rem 2.8rem 1.5rem;
