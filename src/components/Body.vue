@@ -1,5 +1,5 @@
 <template>
-    <section class="">
+    <section class="p-4">
         <div class="">
             <h1 class="">Hello, I'm Omar</h1>
             <p>An award winning Developer, UX Designer, and tinkerer from the U.S. I enjoy organizing complex features into simple user experiences. I've been fortunate enough to work on projects for Purina, Monsanto, MamaLola, Sprint, Anheuser Busch, and Chris Long. In my free time I make useful and interesting things. This website is a personal log of my work, If you'd like to work together on a project feel free to <a href="mailto:webdevromar@gmail.com?Subject=%20Hello"

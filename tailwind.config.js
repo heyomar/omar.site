@@ -10,6 +10,9 @@ module.exports = {
             colors: {
                 'prime': '#3596fd',
                 'second': '#140c36'
+            },
+            fontFamily: {
+                'sans': ['Urbanist', 'sans-serif', 'ui-sans-serif', 'system-ui'],
             }
         },
     },

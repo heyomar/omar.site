@@ -1,15 +1,12 @@
 <template>
-    <div class="">
-        <div class="">
-            <div class=""></div>
-        </div>
+    <div class="container ">
         <div class="">
             <div class="">
-                <Nav />
+                <!-- <Nav /> -->
 
-                <Body />
+                <!-- <Body /> -->
                 <Projects />
-                <Numbers />
+                <!-- <Numbers /> -->
             </div>
         </div>
     </div>
