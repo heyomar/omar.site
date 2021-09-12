@@ -1,15 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Allison&family=Urbanist:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Lexend:wght@300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply bg-paper-dark;
+    }
     h1 {
-        @apply text-4xl font-bold;
+        @apply text-3xl font-sans font-medium;
     }
 
     p {
-        @apply font-serif;
+        @apply text-lg font-serif py-2 max-w-prose;
+    }
+
+    a {
+        @apply underline cursor-pointer;
     }
 }

@@ -2,7 +2,7 @@
     <div class="container ">
         <div class="">
             <div class="">
-                <!-- <Nav /> -->
+                <Nav />
 
                 <!-- <Body /> -->
                 <Projects />

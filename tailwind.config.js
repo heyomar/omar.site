@@ -9,10 +9,14 @@ module.exports = {
         extend: {
             colors: {
                 'prime': '#3596fd',
-                'second': '#140c36'
+                'second': '#140c36',
+                'paper-light': '#f6f0de',
+                'paper-dark': '#f1f0de',
+                'mustard': '#e1b549'
             },
             fontFamily: {
-                'sans': ['Urbanist', 'sans-serif', 'ui-sans-serif', 'system-ui'],
+                'sans': ['Lexend', 'sans-serif', 'ui-sans-serif', 'system-ui'],
+                'serif': ['Kaisei Tokumin', 'sans-serif', 'ui-sans-serif', 'system-ui'],
             }
         },
     },
