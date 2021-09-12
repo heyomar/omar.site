@@ -23,7 +23,6 @@
 
     export default {
         name: "HomePage",
-        props: {},
         components: {
             Nav,
             Body,

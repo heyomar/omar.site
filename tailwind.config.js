@@ -3,7 +3,12 @@ module.exports = {
     mode: 'jit',
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'prime': '#3596fd',
+                'second': '#140c36'
+            }
+        },
     },
     variants: {
         extend: {},
